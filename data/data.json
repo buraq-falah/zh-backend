@@ -30,23 +30,58 @@
   "categories": [
     {
       "name": "news",
-      "slug": "news"
+      "slug": "news",
+      "description": "News articles"
     },
     {
       "name": "tech",
-      "slug": "tech"
+      "slug": "tech",
+      "description": "Technology articles"
     },
     {
       "name": "food",
-      "slug": "food"
+      "slug": "food",
+      "description": "Food articles"
     },
     {
       "name": "nature",
-      "slug": "nature"
+      "slug": "nature",
+      "description": "Nature articles"
     },
     {
       "name": "story",
-      "slug": "story"
+      "slug": "story",
+      "description": "Story articles"
+    },
+    {
+      "name": "Men",
+      "slug": "men",
+      "description": "Men's products"
+    },
+    {
+      "name": "Women",
+      "slug": "women",
+      "description": "Women's products"
+    },
+    {
+      "name": "Unisex",
+      "slug": "unisex",
+      "description": "Unisex products"
+    },
+    {
+      "name": "Accessories",
+      "slug": "accessories",
+      "description": "Accessories"
+    },
+    {
+      "name": "Hats",
+      "slug": "hats",
+      "description": "Hats and headwear"
+    },
+    {
+      "name": "Sports",
+      "slug": "sports",
+      "description": "Sports products"
     }
   ],
   "authors": [

@@ -44,6 +44,7 @@
     "category": {
       "type": "enumeration",
       "enum": [
+        "Uni-sex",
         "Men",
         "Women",
         "Accessories",
@@ -53,6 +54,9 @@
     },
     "description": {
       "type": "text"
+    },
+    "details": {
+      "type": "json"
     }
   }
 }

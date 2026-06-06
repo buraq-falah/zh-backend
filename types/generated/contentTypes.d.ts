@@ -653,12 +653,13 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
   };
   attributes: {
     category: Schema.Attribute.Enumeration<
-      ['Men', 'Women', 'Accessories', 'Hats', 'Sports']
+      ['Uni-sex', 'Men', 'Women', 'Accessories', 'Hats', 'Sports']
     >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     description: Schema.Attribute.Text;
+    details: Schema.Attribute.JSON;
     imageUrl: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true
